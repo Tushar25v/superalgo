@@ -1,0 +1,27 @@
+{% load static %}
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Upstock Login</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'src/css/login.css' %}">
+</head>
+
+<body>
+    <div class="container">
+        <a href="{% url 'login' %}" class="button">
+            <span class="button_glow"></span>
+            <span class="button_side button_front">Login In</span>
+            <span class="button_side button_bottom"></span>
+            <span class="button_side button_back"></span>
+            <span class="button_side button_top"></span>
+            <span class="button_side button_left"></span>
+            <span class="button_side button_right"></span>
+        </a>
+    </div>
+    <script src="{% static 'src/js/login.js' %}"></script>
+</body>
+
+</html>
